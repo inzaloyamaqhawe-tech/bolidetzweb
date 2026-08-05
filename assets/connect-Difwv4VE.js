@@ -1,0 +1,1 @@
+var e=`/assets/connect-DEnl6WkZ.jpg`;export{e as t};
