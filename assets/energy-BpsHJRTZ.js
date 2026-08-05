@@ -1,0 +1,1 @@
+var e=`/bolidetzweb/assets/energy-DdPiIma6.jpg`;export{e as t};

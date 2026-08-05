@@ -5,6 +5,11 @@ server-rendering the real app (same source as the Netlify deployment) and
 snapshotting each route's actual output. Content and layout are identical to
 the live app — nothing here was hand-recreated.
 
+Built with its base path set to `/bolidetzweb/` to match this repo's GitHub
+Pages URL (`https://inzaloyamaqhawe-tech.github.io/bolidetzweb/`) — if this
+ever moves to a different path or a custom domain, it needs rebuilding with
+the matching `BASE_PATH`.
+
 ## Pages included
 Home, About, Auth, Cart, Checkout, Contact, Order Confirmation, Quote, Shop,
 Solutions (+ Energy/Secure/Connect), Admin.

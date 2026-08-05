@@ -1,0 +1,1 @@
+var e=`/bolidetzweb/assets/connect-DEnl6WkZ.jpg`;export{e as t};
