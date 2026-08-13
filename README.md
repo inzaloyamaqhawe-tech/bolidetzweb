@@ -21,6 +21,11 @@ client-side interactions run exactly as in the live app.
 ## Known limitations (no backend attached to this export)
 - Admin/Auth show their logged-out state only.
 - Quote/Checkout forms display and validate but don't submit anywhere yet.
+- Shop product photos are generic placeholders pending real product
+  photography — the same handful of stock fibre images are reused across
+  the 48-item catalogue.
+- Stock counts and warranty terms in the shop are placeholder values pending
+  real inventory data.
 
 ## Purpose
 This is a management-review snapshot, not the production deployment. The
