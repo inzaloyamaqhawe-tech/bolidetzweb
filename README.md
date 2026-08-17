@@ -26,9 +26,6 @@ client-side interactions run exactly as in the live app.
   the 48-item catalogue.
 - Stock counts and warranty terms in the shop are placeholder values pending
   real inventory data.
-- RADWIN has no logo in the "Trusted brands we deploy" row — no usable
-  brand mark could be sourced (their own site's favicon is an illegible
-  16x16 fallback). Stays as a text entry until a proper logo is supplied.
 - The `/checkout` (Stripe) route still exists in the app but is no longer
   linked from the cart, since pricing is "available on request" only.
 
