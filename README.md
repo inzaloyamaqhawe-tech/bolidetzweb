@@ -16,7 +16,9 @@ Solutions (+ Energy/Secure/Connect), Admin.
 
 ## What works
 Navigation, mobile menu, shop filters/product modal, cart drawer — all
-client-side interactions run exactly as in the live app.
+client-side interactions run exactly as in the live app. Cart/quote flow is
+quote-only: no prices shown, no online payment — "Request Formal Quote" /
+"Submit Quote Request" are the only actions.
 
 ## Known limitations (no backend attached to this export)
 - Admin/Auth show their logged-out state only.
@@ -26,8 +28,9 @@ client-side interactions run exactly as in the live app.
   the 48-item catalogue.
 - Stock counts and warranty terms in the shop are placeholder values pending
   real inventory data.
-- The `/checkout` (Stripe) route still exists in the app but is no longer
-  linked from the cart, since pricing is "available on request" only.
+- The `/checkout` (Stripe) route and its server functions still exist in the
+  app source but are unlinked from the UI — pending an explicit go-ahead to
+  delete them outright.
 
 ## Purpose
 This is a management-review snapshot, not the production deployment. The
