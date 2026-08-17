@@ -20,7 +20,7 @@ client-side interactions run exactly as in the live app.
 
 ## Known limitations (no backend attached to this export)
 - Admin/Auth show their logged-out state only.
-- Quote/Checkout forms display and validate but don't submit anywhere yet.
+- Quote form displays and validates but doesn't submit anywhere yet.
 - Shop product photos are generic placeholders pending real product
   photography — the same handful of stock fibre images are reused across
   the 48-item catalogue.
@@ -29,6 +29,8 @@ client-side interactions run exactly as in the live app.
 - RADWIN has no logo in the "Trusted brands we deploy" row — no usable
   brand mark could be sourced (their own site's favicon is an illegible
   16x16 fallback). Stays as a text entry until a proper logo is supplied.
+- The `/checkout` (Stripe) route still exists in the app but is no longer
+  linked from the cart, since pricing is "available on request" only.
 
 ## Purpose
 This is a management-review snapshot, not the production deployment. The
