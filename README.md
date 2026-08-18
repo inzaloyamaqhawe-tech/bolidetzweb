@@ -11,18 +11,19 @@ ever moves to a different path or a custom domain, it needs rebuilding with
 the matching `BASE_PATH`.
 
 ## Pages included
-Home, About, Auth, Cart, Checkout, Contact, Order Confirmation, Quote, Shop,
-Solutions (+ Energy/Secure/Connect), Admin.
+Home, About, Auth, Cart, Contact, Order Confirmation, Quote, Shop, Solutions
+(+ Energy/Secure/Connect), Admin. (`/checkout` still exists but is unlinked.)
 
 ## What works
 Navigation, mobile menu, shop filters/product modal, cart drawer — all
-client-side interactions run exactly as in the live app. Cart/quote flow is
-quote-only: no prices shown, no online payment — "Request Formal Quote" /
-"Submit Quote Request" are the only actions.
+client-side interactions run exactly as in the live app. Cart is a single
+shared source of truth (shop page, header icon, /cart, and /quote all read
+the same state) feeding into a real quote-request submission.
 
-## Known limitations (no backend attached to this export)
+## Known limitations (no live backend attached to this export)
 - Admin/Auth show their logged-out state only.
-- Quote form displays and validates but doesn't submit anywhere yet.
+- Quote form validates and calls the real submit function, but nothing is
+  actually connected to a live Supabase project in this static export.
 - Shop product photos are generic placeholders pending real product
   photography — the same handful of stock fibre images are reused across
   the 48-item catalogue.
