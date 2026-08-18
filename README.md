@@ -26,6 +26,8 @@ the same state) feeding into a real quote-request submission.
   100kW–50MW+ project scale, served markets incl. Agriculture & Mining
 - Connect: flagship Vodacom metro fibre stats (2,875km, 4hr SLA, 30 test
   units) and the Vodacom FTTH case study (100,000+ homes passed)
+- Secure: AI Security capability checklist + Vumacam "Strategic SaaS
+  Partner" spotlight card
 - About: "Why Clients Stay" — network protection practices + ops portal
   feature list
 - Partners section uses real client/brand logos pulled from the deck
