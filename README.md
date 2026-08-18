@@ -20,6 +20,16 @@ client-side interactions run exactly as in the live app. Cart is a single
 shared source of truth (shop page, header icon, /cart, and /quote all read
 the same state) feeding into a real quote-request submission.
 
+## Content sourced from the company profile deck
+- Solutions overview: "The integrated model" 5-step process strip
+- Energy: real sub-services (Generation/Storage/Mini-Utility/PPA Funding),
+  100kW–50MW+ project scale, served markets incl. Agriculture & Mining
+- Connect: flagship Vodacom metro fibre stats (2,875km, 4hr SLA, 30 test
+  units) and the Vodacom FTTH case study (100,000+ homes passed)
+- About: "Why Clients Stay" — network protection practices + ops portal
+  feature list
+- Partners section uses real client/brand logos pulled from the deck
+
 ## Known limitations (no live backend attached to this export)
 - Admin/Auth show their logged-out state only.
 - Quote form validates and calls the real submit function, but nothing is
