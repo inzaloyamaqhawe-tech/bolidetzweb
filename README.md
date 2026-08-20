@@ -20,17 +20,17 @@ client-side interactions run exactly as in the live app. Cart is a single
 shared source of truth (shop page, header icon, /cart, and /quote all read
 the same state) feeding into a real quote-request submission.
 
-## Content sourced from the company profile deck
-- Solutions overview: "The integrated model" 5-step process strip
-- Energy: real sub-services (Generation/Storage/Mini-Utility/PPA Funding),
-  100kW–50MW+ project scale, served markets incl. Agriculture & Mining
-- Connect: flagship Vodacom metro fibre stats (2,875km, 4hr SLA, 30 test
-  units) and the Vodacom FTTH case study (100,000+ homes passed)
-- Secure: AI Security capability checklist + Vumacam "Strategic SaaS
-  Partner" spotlight card
-- About: "Why Clients Stay" — network protection practices + ops portal
-  feature list
-- Partners section uses real client/brand logos pulled from the deck
+## Management review round 2 (2026-08-20)
+- Homepage client-logo section renamed "Our customers in Tanzania"
+  (was "partners") — those companies are customers, not partners.
+- Vumacam logo (homepage) and VUMACAM mention (/solutions/secure) both
+  link out to vumacam.co.za.
+- Connect page's flagship case study no longer names a specific customer —
+  "a leading customer's metro fibre network" / "a national operator"
+  instead of naming Vodacom.
+- FTTH section no longer states a homes-passed number.
+- About page team trimmed to Eugene (Country Head), Nicholas (Head of
+  Service Delivery & Operations), and Daniel (NOC Manager) only.
 
 ## Known limitations (no live backend attached to this export)
 - Admin/Auth show their logged-out state only.
@@ -38,7 +38,7 @@ the same state) feeding into a real quote-request submission.
   actually connected to a live Supabase project in this static export.
 - Shop product photos are generic placeholders pending real product
   photography — the same handful of stock fibre images are reused across
-  the 48-item catalogue.
+  the 48-item catalogue. Real photos pending from Nicholaus.
 - Stock counts and warranty terms in the shop are placeholder values pending
   real inventory data.
 - The `/checkout` (Stripe) route and its server functions still exist in the
