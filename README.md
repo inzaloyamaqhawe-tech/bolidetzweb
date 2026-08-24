@@ -18,7 +18,28 @@ Home, About, Auth, Cart, Contact, Order Confirmation, Quote, Shop, Solutions
 Navigation, mobile menu, shop filters/product modal, cart drawer — all
 client-side interactions run exactly as in the live app. Cart is a single
 shared source of truth (shop page, header icon, /cart, and /quote all read
-the same state) feeding into a real quote-request submission.
+the same state) feeding into a mailto-based quote request (see "Post-meeting
+update" below).
+
+## Post-meeting update (2026-08-24)
+- Quote requests now go out by email instead of a backend submission — a
+  static export has no server behind it, so the previous Supabase-backed
+  submit call could never actually deliver anything here anyway. Submitting
+  the quote form now opens the customer's email app with a pre-filled
+  message addressed to Sales@bolide.co.za. The Shop, cart drawer, /cart and
+  /quote pages themselves are unchanged and still fully working.
+- Accessories & Panels: removed Fibre Patch Cord 1m & 3m, Galvanised Steel
+  Pipe Class A 110mm, and Fibre Cleaning Kit. "HDPE 40/35 Local Coupler" (3
+  red items in its photo) renamed to "Couplers Kit 12mm."
+- Removed the "Connection Protection System" tab entirely — Bolide Tanzania
+  doesn't carry this category. Universal Closure 96F (4-Tray) moved into
+  Accessories & Panels to replace the removed Galvanised Steel Pipe. Dome
+  Closure 96F (4-Tray, Pole Bracket) and HTSC-326 Dome Closure 144F (6-Tray)
+  removed outright.
+- Solutions overview cards reordered: Bolide Connect, Bolide Energy, Bolide
+  Secure (left to right).
+- Product detail modal no longer shows the numeric "units available" count
+  next to the In Stock / Out of Stock badge.
 
 ## Real product photos (2026-08-24)
 12 real product photos supplied by Nicolaus are now live, covering 13
@@ -44,9 +65,9 @@ catalogue items:
 
 ## Known limitations (no live backend attached to this export)
 - Admin/Auth show their logged-out state only.
-- Quote form validates and calls the real submit function, but nothing is
-  actually connected to a live Supabase project in this static export.
-- The remaining ~35 shop items still use generic stock placeholder photos
+- Quote requests are delivered via mailto to Sales@bolide.co.za (see
+  "Post-meeting update" above) rather than a live backend submission.
+- The remaining shop items still use generic stock placeholder photos
   pending further real photography.
 - Stock counts and warranty terms in the shop are placeholder values pending
   real inventory data.
