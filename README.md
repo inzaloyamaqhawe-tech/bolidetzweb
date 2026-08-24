@@ -20,25 +20,18 @@ client-side interactions run exactly as in the live app. Cart is a single
 shared source of truth (shop page, header icon, /cart, and /quote all read
 the same state) feeding into a real quote-request submission.
 
-## Management review round 2 (2026-08-20)
-- Homepage client-logo section renamed "Our customers in Tanzania"
-  (was "partners") — those companies are customers, not partners.
-- Vumacam logo (homepage) and VUMACAM mention (/solutions/secure) both
-  link out to vumacam.co.za.
-- Connect page's flagship case study no longer names a specific customer —
-  "a leading customer's metro fibre network" / "a national operator"
-  instead of naming Vodacom.
-- FTTH section no longer states a homes-passed number.
-- About page team trimmed to Eugene (Country Head), Nicholas (Head of
-  Service Delivery & Operations), and Daniel (NOC Manager) only.
+## Management review round 3 (2026-08-24)
+- "Trusted brands we deploy" trimmed to Canadian Solar and Vumacam only —
+  Delta, Afripipes, RADWIN, Emtelle, Huber+Suhner and OFS removed per
+  management request.
 
 ## Known limitations (no live backend attached to this export)
 - Admin/Auth show their logged-out state only.
 - Quote form validates and calls the real submit function, but nothing is
   actually connected to a live Supabase project in this static export.
 - Shop product photos are generic placeholders pending real product
-  photography — the same handful of stock fibre images are reused across
-  the 48-item catalogue. Real photos pending from Nicholaus.
+  photography — real photos are starting to come in from Nicolaus and are
+  being swapped in as they're received.
 - Stock counts and warranty terms in the shop are placeholder values pending
   real inventory data.
 - The `/checkout` (Stripe) route and its server functions still exist in the
