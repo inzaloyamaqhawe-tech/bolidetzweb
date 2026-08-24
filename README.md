@@ -20,6 +20,23 @@ client-side interactions run exactly as in the live app. Cart is a single
 shared source of truth (shop page, header icon, /cart, and /quote all read
 the same state) feeding into a real quote-request submission.
 
+## Real product photos (2026-08-24)
+12 real product photos supplied by Nicolaus are now live, covering 13
+catalogue items:
+- G657A1 Fig-8 Drop Cable
+- Kabelflex 110/95mm Duct & Coupling
+- 7-Way Duct 7x12/10 (Blue, Direct Buried)
+- 7-Way Duct 7x12/10 (Green, Direct Buried)
+- 7-Way Duct 7x14/10 (Green, Direct Buried)
+- HDPE 40/35 Duct (500m Coil)
+- Shrink Splice Protector 40mm
+- Duct End Cap 12mm
+- HDPE 40/35 Duct Coupler
+- Duct End Cap 40mm
+- HDPE 40/35 Local Coupler
+- Warning Barrier Tape (150mm and 100mm — same roll, one photo used for both
+  widths since there's nothing visually distinct between them in a photo)
+
 ## Management review round 3 (2026-08-24)
 - "Trusted brands we deploy" trimmed to Canadian Solar and Vumacam only —
   Delta, Afripipes, RADWIN, Emtelle, Huber+Suhner and OFS removed per
@@ -29,9 +46,8 @@ the same state) feeding into a real quote-request submission.
 - Admin/Auth show their logged-out state only.
 - Quote form validates and calls the real submit function, but nothing is
   actually connected to a live Supabase project in this static export.
-- Shop product photos are generic placeholders pending real product
-  photography — real photos are starting to come in from Nicolaus and are
-  being swapped in as they're received.
+- The remaining ~35 shop items still use generic stock placeholder photos
+  pending further real photography.
 - Stock counts and warranty terms in the shop are placeholder values pending
   real inventory data.
 - The `/checkout` (Stripe) route and its server functions still exist in the
