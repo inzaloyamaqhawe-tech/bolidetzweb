@@ -21,6 +21,15 @@ shared source of truth (shop page, header icon, /cart, and /quote all read
 the same state) feeding into a mailto-based quote request (see "Post-meeting
 update" below).
 
+## More real product photos (2026-08-26)
+5 more real product photos supplied, covering the patch panel range in
+Accessories & Panels:
+- Patch Panel 24-Way LC/PC 1U
+- Patch Panel 96-Way LC/PC 2U
+- Sliding Patch Panel 24-Way SC/PC 1U
+- Sliding Patch Panel 48-Way SC/PC 2U
+- Sliding Patch Panel 96-Way SC/PC 3U
+
 ## Post-meeting update (2026-08-24)
 - Quote requests now go out by email instead of a backend submission — a
   static export has no server behind it, so the previous Supabase-backed
