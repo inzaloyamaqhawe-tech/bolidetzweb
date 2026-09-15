@@ -21,6 +21,23 @@ shared source of truth (shop page, header icon, /cart, and /quote all read
 the same state) feeding into a mailto-based quote request (see "Post-meeting
 update" below).
 
+## Management review round 4 (2026-09-15)
+- **Vuma logo fixed** — the "Trusted brands" strip was showing only a cropped
+  magenta "V" (a stray crop of the real VumaCam lockup, which stacks "VUMA"
+  above a smaller "Cam"). Replaced with the official VumaCam SVG, cropped to
+  just the "VUMA" wordmark as requested — no "Cam" underneath.
+- **Canadian Solar logo fixed** — same section was showing only the sun mark
+  with no company name next to it. Replaced with Canadian Solar's official
+  lockup (mark + "CanadianSolar" wordmark together).
+- **Bolide Energy page**: removed the "Mini-Utility" card entirely; Storage
+  range corrected from "5 kW to 200 kW" to "20 kW to 200 kW"; Generation card
+  copy changed from "MDU, residential & C&I grid-tie solar — Canadian Solar
+  Tier-1 panels…" to "MDU, compounds & C&I grid-tie solar — Solar Tier-1
+  panels…" (dropped the "Canadian" brand reference here, replaced
+  "residential" with "compounds").
+- **Bolide Secure hero/background photo replaced** with a new TZ-specific
+  image supplied by the client.
+
 ## More real product photos (2026-08-26)
 5 more real product photos supplied, covering the patch panel range in
 Accessories & Panels:
